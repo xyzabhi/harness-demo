@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_xyzabhi_harness_demo_1755639226705-push-trigger-input-set
+  identifier: Build_xyzabhi_harness_demo_1755639226705pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_xyzabhi_harness_demo_1755639226705
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
