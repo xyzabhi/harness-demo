@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_xyzabhi_harness_demo_1755639226705-pr-trigger-input-set
+  identifier: Build_xyzabhi_harness_demo_1755639226705prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_xyzabhi_harness_demo_1755639226705
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
